@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "esperajuegos",
+  "version": "${version}",
+  "name": "Sala de Espera Navideña",
+  "description": "Pantalla de 'Esperando jugadores' con chat, contador de jugadores y 8 minijuegos navideños controlados con WASD. Comando: /screan games players @a on|off",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "icon": "assets/esperajuegos/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.esperajuegos.EsperaJuegos"],
+    "client": ["com.esperajuegos.client.EsperaJuegosClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
